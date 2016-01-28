@@ -254,7 +254,6 @@ footer {
 
 nav a:hover {
     color: #d7df21;
-    font-size: 22px;
     transition: all 1s;
 }
 #email a:hover {
