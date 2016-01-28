@@ -156,10 +156,7 @@ body {
     content: "";
     display: block;
 }
-#email,
-.page-wrap2:after {
-    position: bottom;
-}
+
 
 /*DOM*/
 
