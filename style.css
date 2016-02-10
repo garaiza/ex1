@@ -147,16 +147,6 @@ body {
     display: block;
 }
 
-.page-wrap2 {
-    margin-top: 3%;
-    min-height: 100%;
-    margin-bottom: 2%;
-}
-.page-wrap2:after {
-    content: "";
-    display: block;
-}
-
 
 /*DOM*/
 
@@ -268,14 +258,15 @@ nav a:hover {
     text-align: center;
     padding: 10px;
 }
-#exercises {
+#assignments, #exercises {
     margin-right: auto;
     padding: 10px;
 }
-#assignments {
-    margin-left: auto;
-    padding: 10px;
+
+#assignments li, #exercises li {
+    margin:5px;
 }
+
 html,
 body {
     padding: 0;
