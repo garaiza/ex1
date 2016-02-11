@@ -20,6 +20,8 @@ nav a {
     font-family: 'Hero', sans-serif;
     color: #2f2929;
     font-size: 20px;
+    z-index: 1;
+    position: relative;
 }
 h1 {
     font-family: 'Lobster Two', 'Arial', sans-serif;
