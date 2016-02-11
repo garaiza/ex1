@@ -7,7 +7,14 @@
     src: url(Hero.otf);
 }
 
-/* Typography, fonts, font sizes, colors  &nbsp;*/
+
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
 
 nav a {
     font-family: 'Hero', sans-serif;
@@ -66,7 +73,7 @@ ol li {
     padding-right: 1%;
 }
 
-/*backgrounds*/
+
 
 body {
     background-color: rgba(255, 255, 255, .5);
@@ -148,7 +155,6 @@ body {
 }
 
 
-/*DOM*/
 
 * {
     box-sizing: border-box;
@@ -267,9 +273,11 @@ nav a:hover {
     margin:10px;
 }
 
-html,
-body {
-    padding: 0;
-    margin: 0;
-    height: 100%;
+.posts a {
+    color:hsl(342, 75%, 61%);
+}
+
+.posts a:hover {
+    color: white;
+    transition: all 1s;
 }
