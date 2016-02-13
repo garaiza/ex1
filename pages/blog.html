@@ -2,160 +2,102 @@
 <html>
 
 <head>
-    <title> Blog </title>
-    <link rel="stylesheet" href="../style.css">
+    <meta charset="UTF-8">
+    <title> Gaby's Blog </title>
+    <link rel="stylesheet" href="../styleBlog.css">
 </head>
 
-<body>
-    <section class="page-wrap row">
+    <body>
+    <main>
         <header>
-            <section id="blogTitle" class="row">
-                <div class="one-whole column">
-                    <h1> Gaby's 157 Blog </h1>
-                </div>
-            </section>
+            <h1> Gaby's 157 Blog </h1>
         </header>
 
+        <section>
+            <h3>Feb. 11, 2016- Ex 5 ~Paperjs</h3>
+            <hr>
 
-        <section class="row">
-            <section class="container3 row">
-                <section class="entries row">
-                    <div class="one-whole">
-                        <h2> Entries</h2>
-                    </div>
+            <article class="posts">
+                <img src="../images/littleBoat.PNG" alt="littleBoat">
+                <p>The Library I used was <a href="http://paperjs.org/" target="_blank">Paperjs</a> and it is very similar to Processing in that it lets you draw on a canvas and have interaction or no interaction with it. It is particularly good for SVGs and for smooth animations within you sketch. The animation are automatically at 60 frames per second, so they end up pretty smooth. The thing particular to the library is that you can add, multiply and subtract vectors and not just numbers (Vector1 * Vector2, rather than 5 *8). It also has a DOM-like structure where you can affect more than one object if you target the parent. </p>
 
-                </section>
+                <p>The program lets you code in Javascript or Paperscript, which is their own personal language. All of the examples were in Paperscript, so they said to keep that in mind. Half the struggle was actually getting the library to load. The way they say to do it on the website did not work for me. I had to go and get an <a href="https://cdnjs.com/libraries/paper.js/" target="_blank">external cdn</a> (I used paperjs full) and put the link there rather than having it within the file itself. It does have a warning on my console log, but it works so far. If you can figure out their way of linking to the library, let me know, because I spent a long time doing it. I might use another library though, because it was such a hassle ad it still is a bit iffy.</p>
 
+                <p>I had to look up a YouTube <a href="https://www.youtube.com/watch?v=v9B4SJL6Xqc" target="_blank">video</a> to help me understand what was going on, so I really recommend you watch the link. It basically explains what it is and basic feature of it, and it might be better to actually see it rather than just reading. The website also has a bunch of <a href="http://paperjs.org/tutorials/" target="_blank"> tutorials</a> and <a href="http://paperjs.org/examples/" target="_blank"> examples</a> which you can edit and run on the spot and to see how they interact. If you download the 9.25 version of the library there are also a couple of more examples as well as SVG files that you can use.</p>
 
-                <section class="container4">
-                                  <section class="row">
-
-                        <div class="postTitle">
-                            <h3>Feb. 11, 2016- Ex 5 ~Paperjs</h3></div>
-
-                        <article class="posts">
-
-
-                            <img src="../images/littleBoat.PNG" class="imageResize">
-                            <div class="content">
-                                <p>The Library I used was <a href="http://paperjs.org/" target="_blank">Paperjs</a> and it is very similar to Processing in that it lets you draw on a canvas and have interaction or no interaction with it. It is particularly good for SVGs and for smooth animations within you sketch. The animation are automatically at 60 frames per second, so they end up pretty smooth. The thing particular to the library is that you can add, multiply and subtract vectors and not just numbers (Vector1 * Vector2, rather than 5 *8). It also has a DOM-like structure where you can affect more than one object if you target the parent.  </p>
-
-                                <p>The program lets you code in Javascript or Paperscript, which is their own personal language. All of the examples were in Paperscript, so they said to keep that in mind. Half the struggle was actually getting the library to load. The way they say to do it on the website did not work for me. I had to go and get an <a href="https://cdnjs.com/libraries/paper.js/" target="_blank">external cdn</a> (I used paperjs full) and put the link there rather than having it within the file itself. It does have a warning on my console log, but it works so far. If you can figure out their way of linking to the library, let me know, because I spent a long time doing it. I might use another library though, because it was such a hassle ad it still is a bit iffy.</p>
-                                                            
-                    <p>I had to look up a YouTube <a href="https://www.youtube.com/watch?v=v9B4SJL6Xqc" target="_blank">video</a> to help me understand what was going on, so I really recommend you watch the link. It basically explains what it is and basic feature of it, and it might be better to actually see it rather than just reading. The website also has a bunch of <a href="http://paperjs.org/tutorials/" target="_blank"> tutorials</a> and <a href="http://paperjs.org/examples/" target="_blank"> examples</a> which you can edit and run on the spot and to see how they interact. If you download the 9.25 version of the library there are also a couple of more examples as well as SVG files that you can use.</p>
-                                
-                                      <p>I am making a game where you have an aerial view of the character/play area so I wanted to see how you can move it around the canvas. I used the WASD and arrow keys to move around the space. It is a very simple sketch and is nowhere near the nice example that are on the Paperjs website, but it is relevant to what I am doing. It depends on what you want from the library (background images, characters, interactive backgrounds, etc.). I may or may not use this on my project, I was torn between this and the Createjs library.</p>
-                            </div>
-                        </article>
-                    </section>
-
-                         <section class="row">
-
-                        <div class="postTitle">
-                            <h3>Feb. 4, 2016- Ex 4 ~Pocket full of interface</h3></div>
-
-                        <article class="posts">
-
-                            <img src="../images/ex%204%20final%20interface.PNG" alt="ex 4 final interface" class="imageResize">
-                            <div class="content">
-                                <p>This is my final iteration of Pocket Full of Interface. It is pretty similar to my original intent in the sketches that I made so I am overall happy with it. I did have to take out some elements such as having an image appear in the speach bubble. It was not so much placing it there. It was more of a struggle of having them change on each mouse click on each different item. It was messing up the html and css so i decided to take it out as it was not necessary. I also had trouble with the animation in terms of fading. When you first click on any item the words fade in nicely, but when you click on it again after closing it becomes more abrupt and does not fade in like the first time. In general I tried writing named functions, but I was not able to get it to work, my structure was probably completely off. </p>
-
-                                <p>I really wanted this design to look fun. I used bright colors and added a caricature of me that is whistling. I wanted to practice animating in Photoshop, so that it why I did it, but I also wanted to try and create something to look at even wen you are not interacting with it.</p>
-                                     <img src="../images/ex%204%20bubble.PNG" alt="ex 4 bubble" class="imageResize">
-                                
-                    <p>When you first load the page, the entire content of the page slowly fades in, so the color is not in your face. It become a gradual process, making it easier to take in. After the body comes in, the header comes in a little bit later. You can click on each of the colored squares with a picture and a speech bubble will pop up sayin what it is and why it is important. The character appears to be sing-song whistling the content. Whenever there is a character, I always like interactig with it, so I added a gif of the character readting to the mouse getting too close. It would have been fun to add what would happen if you clicked over it.</p>
-                            </div>
-                        </article>
-
-                    </section>
-                    <section class="row">
-
-                        <div class="postTitle">
-                            <h3>Jan. 28, 2016- Ex 3~Final Interface</h3></div>
-
-                        <article class="posts">
-
-
-                            <img src="../images/ex%203%20final%20interface.PNG" alt="ex 3 final interface" class="imageResize">
-                            <div class="content">
-                                <p>This is my interface I made for excercise 3, Time is on my Side. I originally had 3 different designs in mind that were completely different. I wasn't really sure what I was doing until we got our sketches back and we saw some examples. I was particularly ispired by one that had dots and you could press the dots and the information would pop out. I had someething similar in one of them and so decided to update my design as well as combine elements from all 3 of my sketches into one solid design.</p>
-
-                                <p>For the design itself I was really inspired by back-to-school imagery of blackboards and chalk. I also really wanted to add fun colors that would pop out from the black and have it seem more playful: "school can be fun." I think it is a fun way to interact with almost like a schedule on a chalkboard. </p>
-                                
-                    <p>In terms of interactivity, I have it so that you can focus on the times and numbers specifically on what area you want to look at. When you hover over the pink button you get a percentage and the name of what it is in a hover. When you only want to see those, you can click on it and it shows the percentage of the time you spent doing that. You can click of them however much yo want. If you want specifics for a time, you click on the number and the activity appears there. If you don't want to see it anymore you double click it. If you want to see all the activities you press the date and if you want to clear everything you press the clear button. The only thing I wish is that I further developed the buttons so that they also controlled the tool tips/activities as well. </p>
-                            </div>
-                        </article>
-
-                    </section>
-                    
-                    
-                    <section class="row">
-
-                        <div class="postTitle">
-                            <h3>Jan. 19, 2016- Website Critical Review</h3></div>
-
-                        <article class="posts">
-
-
-                            <img src="../images/trello.PNG" alt="trello" class="imageResize">
-                            <div class="content">
-                                <p>Trello is a website that is used for collaborative projects. The user is able to leave notes, contact certain people, upload files and remove files, and create new projects. Trello is a really good website as it allows users to see everything that everyone is doing, which allows for easy communication between team members, which is very important when there are multiple parties involved in a project.</p>
-
-                                <p>The user interaction is very much based on sticky notes while maintaining a organizational filing system. Each list is a broad topic that the team member can see. Within that the user can add cards to the bottom in order to create subcategories. The team members can add files accordingly to each card or list to move the project along. The person is able to see if a task is done with list statuses that say completed, paused for input, and so forth. The right side is a thread of all the messages that have been written. </p>
-
-                                <p>Overall Trello is a very easy site to use for collaborative projects. It does not get too crowded nor does it make everything hard to find. It is a very organized cite in terms of this type of usability. It alerts you through email when someone calls for you and finding where you are needed is also easy to find. Overall Trello has a very good system, it does what it is made to do.</p>
-                            </div>
-                        </article>
-
-                    </section>
-
-                    <section class="row">
-
-                        <div class="postTitle">
-                            <h3>Jan. 07, 2016-User Interface Review</h3></div>
-
-                        <article class="posts">
-
-
-                            <img src="../images/tumblr.PNG" alt="tumblr" class="imageResize">
-                            <div class="content">
-                                <p>Tumblr is a blogging website that allows users to create and share content with other users. The bloggers can share media such videos, audio files, pictures, links and text posts. Users can also create and design their own blog pages, which people can follow for content. Users can also communicate with each other through submissions, chat, asks and fan mail.</p>
-
-
-
-                                <p>In terms of user friendliness, the scale is unfortunately not as great as it should be. The staff keeps changing graphic and UX/UI aspects that do not necessarily need changing. They try to hide menus and change button designs to be more minimalistic, but do not help in terms of usability. </p>
-
-                                <p>In order to counter Tumblr&#8217;s useless updates, many people like myself, have downloaded extensions to help clean the mess. I personally use X-kit, which is a chrome extension that allows to customize my dashboard how I please. The screenshot of my dashboard shown above is not the same as it would be if you did not have X-kit. If I did not have this option, I would not recommend that you use Tumblr.</p>
-                            </div>
-                        </article>
-
-                    </section>
-
-                </section>
-            </section>
+                <p>I am making a game where you have an aerial view of the character/play area so I wanted to see how you can move it around the canvas. I used the WASD and arrow keys to move around the space. It is a very simple sketch and is nowhere near the nice example that are on the Paperjs website, but it is relevant to what I am doing. It depends on what you want from the library (background images, characters, interactive backgrounds, etc.). I may or may not use this on my project, I was torn between this and the Createjs library.</p>
+            </article>
         </section>
-    </section>
 
+        <section>
+            <h3>Feb. 4, 2016- Ex 4 ~Pocket full of interface</h3>
+            <hr>
+            <article class="posts">
 
-    <footer>
-        <div class="containerfooter">
-            <div class="row">
+                <img src="../images/ex%204%20final%20interface.PNG" alt="ex 4 final interface">
+                <p>This is my final iteration of Pocket Full of Interface. It is pretty similar to my original intent in the sketches that I made so I am overall happy with it. I did have to take out some elements such as having an image appear in the speach bubble. It was not so much placing it there. It was more of a struggle of having them change on each mouse click on each different item. It was messing up the html and css so i decided to take it out as it was not necessary. I also had trouble with the animation in terms of fading. When you first click on any item the words fade in nicely, but when you click on it again after closing it becomes more abrupt and does not fade in like the first time. In general I tried writing named functions, but I was not able to get it to work, my structure was probably completely off. </p>
 
-                <section id="email" class="column">
-                    <ul>
-                        <li><a href="../index.html"> index   </a></li>
-                        <li><a href="mailto:garaiza@ucdavis.edu"> email me   </a></li>
-  <li><a href="https://validator.w3.org/check?uri=referer" target="_blank">Valid HTML 5</a></li>
+                <p>I really wanted this design to look fun. I used bright colors and added a caricature of me that is whistling. I wanted to practice animating in Photoshop, so that it why I did it, but I also wanted to try and create something to look at even wen you are not interacting with it.</p>
+                <img src="../images/ex%204%20bubble.PNG" alt="ex 4 bubble" class="imageResize">
+
+                <p>When you first load the page, the entire content of the page slowly fades in, so the color is not in your face. It become a gradual process, making it easier to take in. After the body comes in, the header comes in a little bit later. You can click on each of the colored squares with a picture and a speech bubble will pop up sayin what it is and why it is important. The character appears to be sing-song whistling the content. Whenever there is a character, I always like interactig with it, so I added a gif of the character readting to the mouse getting too close. It would have been fun to add what would happen if you clicked over it.</p>
+            </article>
+        </section>
+
+        <section>
+            <h3>Jan. 28, 2016- Ex 3~Final Interface</h3>
+            <hr>
+            <article class="posts">
+                <img src="../images/ex%203%20final%20interface.PNG" alt="ex 3 final interface">
+
+                <p>This is my interface I made for excercise 3, Time is on my Side. I originally had 3 different designs in mind that were completely different. I wasn't really sure what I was doing until we got our sketches back and we saw some examples. I was particularly ispired by one that had dots and you could press the dots and the information would pop out. I had someething similar in one of them and so decided to update my design as well as combine elements from all 3 of my sketches into one solid design.</p>
+
+                <p>For the design itself I was really inspired by back-to-school imagery of blackboards and chalk. I also really wanted to add fun colors that would pop out from the black and have it seem more playful: "school can be fun." I think it is a fun way to interact with almost like a schedule on a chalkboard. </p>
+
+                <p>In terms of interactivity, I have it so that you can focus on the times and numbers specifically on what area you want to look at. When you hover over the pink button you get a percentage and the name of what it is in a hover. When you only want to see those, you can click on it and it shows the percentage of the time you spent doing that. You can click of them however much yo want. If you want specifics for a time, you click on the number and the activity appears there. If you don't want to see it anymore you double click it. If you want to see all the activities you press the date and if you want to clear everything you press the clear button. The only thing I wish is that I further developed the buttons so that they also controlled the tool tips/activities as well. </p>
+            </article>
+        </section>
+
+        <section>
+            <h3>Jan. 19, 2016- Website Critical Review</h3>
+            <hr>
+            <article class="posts">
+                <img src="../images/trello.PNG" alt="trello" class="imageResize">
+                <p>Trello is a website that is used for collaborative projects. The user is able to leave notes, contact certain people, upload files and remove files, and create new projects. Trello is a really good website as it allows users to see everything that everyone is doing, which allows for easy communication between team members, which is very important when there are multiple parties involved in a project.</p>
+
+                <p>The user interaction is very much based on sticky notes while maintaining a organizational filing system. Each list is a broad topic that the team member can see. Within that the user can add cards to the bottom in order to create subcategories. The team members can add files accordingly to each card or list to move the project along. The person is able to see if a task is done with list statuses that say completed, paused for input, and so forth. The right side is a thread of all the messages that have been written. </p>
+
+                <p>Overall Trello is a very easy site to use for collaborative projects. It does not get too crowded nor does it make everything hard to find. It is a very organized cite in terms of this type of usability. It alerts you through email when someone calls for you and finding where you are needed is also easy to find. Overall Trello has a very good system, it does what it is made to do.</p>
+            
+            </article>
+        </section>
+
+        <section>
+            <h3>Jan. 07, 2016-User Interface Review</h3>
+            <hr>
+            <article class="posts">
+                <img src="../images/tumblr.PNG" alt="tumblr" class="imageResize">
+                <p>Tumblr is a blogging website that allows users to create and share content with other users. The bloggers can share media such videos, audio files, pictures, links and text posts. Users can also create and design their own blog pages, which people can follow for content. Users can also communicate with each other through submissions, chat, asks and fan mail.</p>
+
+                <p>In terms of user friendliness, the scale is unfortunately not as great as it should be. The staff keeps changing graphic and UX/UI aspects that do not necessarily need changing. They try to hide menus and change button designs to be more minimalistic, but do not help in terms of usability. </p>
+
+                <p>In order to counter Tumblr&#8217;s useless updates, many people like myself, have downloaded extensions to help clean the mess. I personally use X-kit, which is a chrome extension that allows to customize my dashboard how I please. The screenshot of my dashboard shown above is not the same as it would be if you did not have X-kit. If I did not have this option, I would not recommend that you use Tumblr.</p>
+            </article>
+        </section>
+
+        <footer>
+            <ul>
+                <li><a href="../index.html"> Index   </a></li>
+                <li><a href="mailto:garaiza@ucdavis.edu"> Email me   </a></li>
+                <li><a href="https://validator.w3.org/check?uri=referer" target="_blank">Valid HTML 5</a></li>
                 <li><a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank">Valid CSS</a></li>
-                    </ul>
-                </section>
-            </div>
-        </div>
-    </footer>
-
-
-
-
+            </ul>
+        </footer>
+    </main>
 </body>
 
 </html>
+
+    
+    
+    

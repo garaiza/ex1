@@ -16,57 +16,34 @@ body {
     background-color: #ffffff;
 }
 main {
-    width: 1024px;
+    width: 600px;
     margin: auto;
     clear: right;
     position: relative;
 }
 header {
-    width: 800px;
-    height: 250px;
+    height: 120px;
     margin-top: 30px;
+    margin-bottom: 80px;
     margin-left: auto;
     margin-right: auto;
+    padding: 15px;
+    background-color: #d7df21;
 }
-#myName {
-    margin-bottom: 10px;
-    text-align: center;
-    padding: 10px;
-}
-#links {
-    float: right;
-    width: 600px;
-    margin-bottom: auto;
-    clear: right;
-    position: relative;
-}
-#projects,
-#exercises {
-    margin-right: auto;
-    padding: 10px;
-    float: left;
-}
-#projects li,
-#exercises li {
-    line-height: 20px;
-}
-nav a {
-    color: #2f2929;
-    font-size: 16px;
-    z-index: 1;
-    position: relative;
+
+
+hr{
+    background-color: white;
+    height: 25px;
 }
 footer a,
 h1,
 h3 {
     font-family: 'Lobster Two', 'Arial', sans-serif;
 }
-nav a,
-ol {
-    font-family: 'Hero', sans-serif;
-}
+
 h1 {
-    color: #d7df21;
+    color: #fdffcb;
     font-size: 70px;
     font-style: italic;
 }
@@ -76,19 +53,35 @@ h2 {
     font-size: 40px;
 }
 h3 {
-    color: #c1f583;
+    color: #b1e4fa;
     font-size: 30px;
+    background-color: #2f2929;
+    text-indent: 20px;
 }
 a {
     text-decoration: none;
+    color: #e6517e;
 }
-ul {
-    list-style-type: circle;
-}
-ol li {
+p {
+    text-indent: 50px;
+    font-family: 'Hero', sans-serif;
     color: #2f2929;
-    font-size: 16px;
-    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.posts {
+    margin-bottom: 100px;
+    background-color: #b1e4fa;
+    padding: 20px;
+    position: relative;
+    clear: right;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10px;
+     margin-top: 10px;
 }
 footer {
     position: fixed;
@@ -98,7 +91,7 @@ footer {
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
-    background-color: #1b81a0;
+    background-color: rgba(27, 129, 160, 0.89);
     clear: left;
 }
 footer ul li {
@@ -110,12 +103,12 @@ footer a {
     color: #ffffff;
     font-size: 16px;
 }
-nav a:hover {
+footer a:hover {
     color: #d7df21;
     transition: all 1s;
 }
-footer a:hover {
-    color: #d7df21;
+article a:hover {
+    color: #1b81a0;
     transition: all 1s;
 }
 
