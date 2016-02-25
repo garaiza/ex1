@@ -35,20 +35,25 @@ header {
 }
 #links {
     float: right;
-    width: 600px;
+    width: 700px;
     margin-bottom: auto;
     clear: right;
     position: relative;
 }
-#projects,
+#projects, #projects2,
 #exercises {
     margin-right: auto;
     padding: 10px;
     float: left;
 }
-#projects li,
+#projects li, #projects2 li,
 #exercises li {
     line-height: 20px;
+}
+
+ #projects2 
+{
+   margin-top: 70px;
 }
 nav a {
     color: #2f2929;
